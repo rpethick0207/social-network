@@ -2,6 +2,22 @@
 ## Description 
 This is the backend for a social network that allows its users to share their thoughts (post), their reactions (comment), and make friends (add new friends).
 
+## User Story
+AS A social media startup
+I WANT an API for my social network that uses a NoSQL database
+SO THAT my website can handle large amounts of unstructured data
+
+## Acceptance Criteria
+GIVEN a social network API
+WHEN I enter the command to invoke the application
+THEN my server is started and the Mongoose models are synced to the MongoDB database
+WHEN I open API GET routes in Insomnia for users and thoughts
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
+THEN I am able to successfully create, update, and delete users and thoughts in my database
+WHEN I test API POST and DELETE routes in Insomnia
+THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+
 ## Technolgies Used
 • Javascript
 • express.js
@@ -12,12 +28,9 @@ This is the backend for a social network that allows its users to share their th
 ## Installation Process
 Run npm i in the terminal to install the dependencies then run node server.js to start.
 
-## Walkthrough Video
-https://drive.google.com/file/d/1P50L3qhBhW0fmPnJekeDZQxJbFrNlVDV/view
 
-Study Group:
-Susan, Chris P., Sarah, Jackson, Aaron, Ricky
+# Study Group
 
-## Screenshot
-<img width="1169" alt="Screen Shot 2022-09-10 at 9 34 47 AM" src="https://user-images.githubusercontent.com/101524089/189485810-7fc16605-5d19-4989-b16f-589b06f46bde.png">
+Ricky, Chris, Susan, Sarah, Jackson, Aaron
+
 
